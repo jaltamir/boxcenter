@@ -1,0 +1,17 @@
+{% extends 'SonataAdminBundle:CRUD:base_list_field.html.twig' %}
+
+{% block field %}
+
+    <div class="text-center">
+
+    {% if object.state == 0 %}
+        <span class="label label-warning">{{ 'Pending'|trans }}</span>
+    {% elseif object.state == 1 %}
+        <span class="label label-danger">{{ 'Cancelled'|trans }}</span>
+    {% elseif object.state == 2 %}
+        <span class="label label-success">{{ 'Confirmed'|trans }}</span>
+    {% endif %}
+
+    </div>
+
+{% endblock %}

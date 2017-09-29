@@ -1,0 +1,58 @@
+{% extends 'BoxAdminBundle:Base:layout.html.twig' %}
+
+{% block sonata_admin_content %}
+
+    {{ parent() }}
+
+    {% if not payment.isManuallyCreated %}
+        <div class="panel panel-danger">
+    {% else %}
+        <div class="panel panel-warning">
+    {% endif %}
+
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                {% if not payment.isManuallyCreated %}
+                    Refund Payment
+                {% else %}
+                    Cancel Payment
+                {% endif %}
+
+            </h3>
+        </div>
+        <div class="panel-body">
+
+            {% if not payment.isManuallyCreated %}
+                <p>You are going to refund the following payment</p>
+            {% else %}
+                <p>You are going to cancel the following payment</p>
+            {% endif %}
+
+            <ul>
+                <li>
+                    User: <strong>{{ payment.user }}</strong>
+                </li>
+                <li>
+                    Pass: <strong>{{ payment.pass.nameForFrontShort }}</strong>
+                </li>
+                <li>
+                    Month Subscribed: <strong>{{ payment.dateSubscribed|date('m-Y') }}</strong>
+                </li>
+
+                {% if not payment.isManuallyCreated %}
+                    <li>
+                        Total amount: <strong>{{ payment.totalPrice|round(2) }}€</strong>
+                    </li>
+                {% endif %}
+
+            </ul>
+
+            <p class="text-center">
+                {{ form(form) }}
+                <a href="{{ path('admin_jaltamir_boxcore_payment_list') }}" class="btn btn-default">Return to the list</a>
+            </p>
+
+        </div>
+    </div>
+    
+{% endblock %}

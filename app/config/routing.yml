@@ -1,0 +1,26 @@
+ucafit:
+    resource: "@UcafitBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+box_admin:
+    resource: "@BoxAdminBundle/Controller/"
+    type:     annotation
+    prefix:   /admin
+
+admin_area:
+    resource: "@SonataAdminBundle/Resources/config/routing/sonata_admin.xml"
+    prefix: /admin
+
+_sonata_admin:
+    resource: .
+    type: sonata_admin
+    prefix: /admin
+
+logout:
+    path: /logout
+
+api:
+    resource: '.'
+    type:     'api_platform'
+    prefix:   '/api' # Optional

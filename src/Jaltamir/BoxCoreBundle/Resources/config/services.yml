@@ -1,0 +1,17 @@
+services:
+    box_core.manager.schedule:
+        class: Jaltamir\BoxCoreBundle\Services\Manager\ScheduleManager
+        arguments: ['@doctrine.orm.default_entity_manager']
+
+    box_core.manager.session:
+        class: Jaltamir\BoxCoreBundle\Services\Manager\SessionManager
+        arguments: ['@doctrine.orm.default_entity_manager', '@box_core.factory.session', '@router', '@translator']
+
+    box_core.sessions_subscriber:
+        class: Jaltamir\BoxCoreBundle\Event\SessionsSubscriber
+        arguments: ['@box_core.manager.session', '@box_core.manager.schedule']
+        tags:
+            - { name: kernel.event_subscriber }
+
+    box_core.factory.session:
+        class: Jaltamir\BoxCoreBundle\Factory\SessionFactory

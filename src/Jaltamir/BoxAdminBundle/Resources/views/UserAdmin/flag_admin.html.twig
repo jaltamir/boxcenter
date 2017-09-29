@@ -1,0 +1,15 @@
+{% extends 'SonataAdminBundle:CRUD:base_list_field.html.twig' %}
+
+{% block field %}
+
+    <div class="text-center">
+
+    {% if object.getFlagAdmin  %}
+        <span class="label label-danger">{{ 'Administrator'|trans }}</span>
+    {% else %}
+        <span class="label label-success">{{ 'User'|trans }}</span>
+    {% endif %}
+
+    </div>
+
+{% endblock %}

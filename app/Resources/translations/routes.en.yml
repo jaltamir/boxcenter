@@ -1,0 +1,338 @@
+# Desc: /actividades
+activities: /activities
+
+# Desc: /admin/jaltamir/boxcore/activity/batch
+admin_jaltamir_boxcore_activity_batch: /admin/jaltamir/boxcore/activity/batch
+
+# Desc: /admin/jaltamir/boxcore/activity/create
+admin_jaltamir_boxcore_activity_create: /admin/jaltamir/boxcore/activity/create
+
+# Desc: /admin/jaltamir/boxcore/activity/{id}/delete
+admin_jaltamir_boxcore_activity_delete: '/admin/jaltamir/boxcore/activity/{id}/delete'
+
+# Desc: /admin/jaltamir/boxcore/activity/{id}/edit
+admin_jaltamir_boxcore_activity_edit: '/admin/jaltamir/boxcore/activity/{id}/edit'
+
+# Desc: /admin/jaltamir/boxcore/activity/export
+admin_jaltamir_boxcore_activity_export: /admin/jaltamir/boxcore/activity/export
+
+# Desc: /admin/jaltamir/boxcore/activity/list
+admin_jaltamir_boxcore_activity_list: /admin/jaltamir/boxcore/activity/list
+
+# Desc: /admin/jaltamir/boxcore/activity/{id}/show
+admin_jaltamir_boxcore_activity_show: '/admin/jaltamir/boxcore/activity/{id}/show'
+
+# Desc: /admin/jaltamir/boxcore/assistance/batch
+admin_jaltamir_boxcore_assistance_batch: /admin/jaltamir/boxcore/assistance/batch
+
+# Desc: /admin/jaltamir/boxcore/assistance/create
+admin_jaltamir_boxcore_assistance_create: /admin/jaltamir/boxcore/assistance/create
+
+# Desc: /admin/jaltamir/boxcore/assistance/{id}/delete
+admin_jaltamir_boxcore_assistance_delete: '/admin/jaltamir/boxcore/assistance/{id}/delete'
+
+# Desc: /admin/jaltamir/boxcore/assistance/{id}/edit
+admin_jaltamir_boxcore_assistance_edit: '/admin/jaltamir/boxcore/assistance/{id}/edit'
+
+# Desc: /admin/jaltamir/boxcore/assistance/export
+admin_jaltamir_boxcore_assistance_export: /admin/jaltamir/boxcore/assistance/export
+
+# Desc: /admin/jaltamir/boxcore/assistance/list
+admin_jaltamir_boxcore_assistance_list: /admin/jaltamir/boxcore/assistance/list
+
+# Desc: /admin/jaltamir/boxcore/assistance/{id}/show
+admin_jaltamir_boxcore_assistance_show: '/admin/jaltamir/boxcore/assistance/{id}/show'
+
+# Desc: /admin/jaltamir/boxcore/pass/batch
+admin_jaltamir_boxcore_pass_batch: /admin/jaltamir/boxcore/pass/batch
+
+# Desc: /admin/jaltamir/boxcore/pass/create
+admin_jaltamir_boxcore_pass_create: /admin/jaltamir/boxcore/pass/create
+
+# Desc: /admin/jaltamir/boxcore/pass/{id}/delete
+admin_jaltamir_boxcore_pass_delete: '/admin/jaltamir/boxcore/pass/{id}/delete'
+
+# Desc: /admin/jaltamir/boxcore/pass/{id}/edit
+admin_jaltamir_boxcore_pass_edit: '/admin/jaltamir/boxcore/pass/{id}/edit'
+
+# Desc: /admin/jaltamir/boxcore/pass/export
+admin_jaltamir_boxcore_pass_export: /admin/jaltamir/boxcore/pass/export
+
+# Desc: /admin/jaltamir/boxcore/pass/list
+admin_jaltamir_boxcore_pass_list: /admin/jaltamir/boxcore/pass/list
+
+# Desc: /admin/jaltamir/boxcore/pass/{id}/show
+admin_jaltamir_boxcore_pass_show: '/admin/jaltamir/boxcore/pass/{id}/show'
+
+# Desc: /admin/jaltamir/boxcore/payment/create
+admin_jaltamir_boxcore_payment_create: /admin/jaltamir/boxcore/payment/create
+
+# Desc: /admin/jaltamir/boxcore/payment/list
+admin_jaltamir_boxcore_payment_list: /admin/jaltamir/boxcore/payment/list
+
+# Desc: /admin/jaltamir/boxcore/schedule/batch
+admin_jaltamir_boxcore_schedule_batch: /admin/jaltamir/boxcore/schedule/batch
+
+# Desc: /admin/jaltamir/boxcore/schedule/create
+admin_jaltamir_boxcore_schedule_create: /admin/jaltamir/boxcore/schedule/create
+
+# Desc: /admin/jaltamir/boxcore/schedule/{id}/delete
+admin_jaltamir_boxcore_schedule_delete: '/admin/jaltamir/boxcore/schedule/{id}/delete'
+
+# Desc: /admin/jaltamir/boxcore/schedule/{id}/edit
+admin_jaltamir_boxcore_schedule_edit: '/admin/jaltamir/boxcore/schedule/{id}/edit'
+
+# Desc: /admin/jaltamir/boxcore/schedule/export
+admin_jaltamir_boxcore_schedule_export: /admin/jaltamir/boxcore/schedule/export
+
+# Desc: /admin/jaltamir/boxcore/schedule/list
+admin_jaltamir_boxcore_schedule_list: /admin/jaltamir/boxcore/schedule/list
+
+# Desc: /admin/jaltamir/boxcore/schedule/{id}/show
+admin_jaltamir_boxcore_schedule_show: '/admin/jaltamir/boxcore/schedule/{id}/show'
+
+# Desc: /admin/jaltamir/boxcore/session/list
+admin_jaltamir_boxcore_session_list: /admin/jaltamir/boxcore/session/list
+
+# Desc: /admin/jaltamir/boxcore/user/batch
+admin_jaltamir_boxcore_user_batch: /admin/jaltamir/boxcore/user/batch
+
+# Desc: /admin/jaltamir/boxcore/user/create
+admin_jaltamir_boxcore_user_create: /admin/jaltamir/boxcore/user/create
+
+# Desc: /admin/jaltamir/boxcore/user/{id}/delete
+admin_jaltamir_boxcore_user_delete: '/admin/jaltamir/boxcore/user/{id}/delete'
+
+# Desc: /admin/jaltamir/boxcore/user/{id}/edit
+admin_jaltamir_boxcore_user_edit: '/admin/jaltamir/boxcore/user/{id}/edit'
+
+# Desc: /admin/jaltamir/boxcore/user/export
+admin_jaltamir_boxcore_user_export: /admin/jaltamir/boxcore/user/export
+
+# Desc: /admin/jaltamir/boxcore/user/list
+admin_jaltamir_boxcore_user_list: /admin/jaltamir/boxcore/user/list
+
+# Desc: /admin/jaltamir/boxcore/user/{id}/show
+admin_jaltamir_boxcore_user_show: '/admin/jaltamir/boxcore/user/{id}/show'
+
+# Desc: /api/activities/{id}.{_format}
+api_activities_delete_item: '/api/activities/{id}.{_format}'
+
+# Desc: /api/activities.{_format}
+api_activities_get_collection: '/api/activities.{_format}'
+
+# Desc: /api/activities/{id}.{_format}
+api_activities_get_item: '/api/activities/{id}.{_format}'
+
+# Desc: /api/activities.{_format}
+api_activities_post_collection: '/api/activities.{_format}'
+
+# Desc: /api/activities/{id}.{_format}
+api_activities_put_item: '/api/activities/{id}.{_format}'
+
+# Desc: /api/assistances/{id}.{_format}
+api_assistances_delete_item: '/api/assistances/{id}.{_format}'
+
+# Desc: /api/assistances.{_format}
+api_assistances_get_collection: '/api/assistances.{_format}'
+
+# Desc: /api/assistances/{id}.{_format}
+api_assistances_get_item: '/api/assistances/{id}.{_format}'
+
+# Desc: /api/assistances.{_format}
+api_assistances_post_collection: '/api/assistances.{_format}'
+
+# Desc: /api/assistances/{id}.{_format}
+api_assistances_put_item: '/api/assistances/{id}.{_format}'
+
+# Desc: /api/docs.{_format}
+api_doc: '/api/docs.{_format}'
+
+# Desc: /api/{index}.{_format}
+api_entrypoint: '/api/{index}.{_format}'
+
+# Desc: /api/contexts/{shortName}.{_format}
+api_jsonld_context: '/api/contexts/{shortName}.{_format}'
+
+# Desc: /api/passes/{id}.{_format}
+api_passes_delete_item: '/api/passes/{id}.{_format}'
+
+# Desc: /api/passes.{_format}
+api_passes_get_collection: '/api/passes.{_format}'
+
+# Desc: /api/passes/{id}.{_format}
+api_passes_get_item: '/api/passes/{id}.{_format}'
+
+# Desc: /api/passes.{_format}
+api_passes_post_collection: '/api/passes.{_format}'
+
+# Desc: /api/passes/{id}.{_format}
+api_passes_put_item: '/api/passes/{id}.{_format}'
+
+# Desc: /api/payments/{id}.{_format}
+api_payments_delete_item: '/api/payments/{id}.{_format}'
+
+# Desc: /api/payments.{_format}
+api_payments_get_collection: '/api/payments.{_format}'
+
+# Desc: /api/payments/{id}.{_format}
+api_payments_get_item: '/api/payments/{id}.{_format}'
+
+# Desc: /api/payments.{_format}
+api_payments_post_collection: '/api/payments.{_format}'
+
+# Desc: /api/payments/{id}.{_format}
+api_payments_put_item: '/api/payments/{id}.{_format}'
+
+# Desc: /api/refunds/{id}.{_format}
+api_refunds_delete_item: '/api/refunds/{id}.{_format}'
+
+# Desc: /api/refunds.{_format}
+api_refunds_get_collection: '/api/refunds.{_format}'
+
+# Desc: /api/refunds/{id}.{_format}
+api_refunds_get_item: '/api/refunds/{id}.{_format}'
+
+# Desc: /api/refunds.{_format}
+api_refunds_post_collection: '/api/refunds.{_format}'
+
+# Desc: /api/refunds/{id}.{_format}
+api_refunds_put_item: '/api/refunds/{id}.{_format}'
+
+# Desc: /api/schedules/{id}.{_format}
+api_schedules_delete_item: '/api/schedules/{id}.{_format}'
+
+# Desc: /api/schedules.{_format}
+api_schedules_get_collection: '/api/schedules.{_format}'
+
+# Desc: /api/schedules/{id}.{_format}
+api_schedules_get_item: '/api/schedules/{id}.{_format}'
+
+# Desc: /api/schedules.{_format}
+api_schedules_post_collection: '/api/schedules.{_format}'
+
+# Desc: /api/schedules/{id}.{_format}
+api_schedules_put_item: '/api/schedules/{id}.{_format}'
+
+# Desc: /api/sessions/{id}.{_format}
+api_sessions_delete_item: '/api/sessions/{id}.{_format}'
+
+# Desc: /api/sessions.{_format}
+api_sessions_get_collection: '/api/sessions.{_format}'
+
+# Desc: /api/sessions/{id}.{_format}
+api_sessions_get_item: '/api/sessions/{id}.{_format}'
+
+# Desc: /api/sessions.{_format}
+api_sessions_post_collection: '/api/sessions.{_format}'
+
+# Desc: /api/sessions/{id}.{_format}
+api_sessions_put_item: '/api/sessions/{id}.{_format}'
+
+# Desc: /api/users/{id}.{_format}
+api_users_delete_item: '/api/users/{id}.{_format}'
+
+# Desc: /api/users.{_format}
+api_users_get_collection: '/api/users.{_format}'
+
+# Desc: /api/users/{id}.{_format}
+api_users_get_item: '/api/users/{id}.{_format}'
+
+# Desc: /api/users.{_format}
+api_users_post_collection: '/api/users.{_format}'
+
+# Desc: /api/users/{id}.{_format}
+api_users_put_item: '/api/users/{id}.{_format}'
+
+# Desc: /sesion/{id}/reservar
+booking: '/session/{id}/booking'
+
+# Desc: /sesion/{id}/cancelar
+booking_cancel: '/session/{id}/cancel'
+
+# Desc: /admin/change-password/user/{id}
+change_password: '/admin/change-password/user/{id}'
+
+# Desc: /admin/change-password-action/user/{id}
+change_password_action: '/admin/change-password-action/user/{id}'
+
+# Desc: /resumen
+checkout: /summary
+
+# Desc: /contacto
+contact: /contact
+
+# Desc: /
+home: /
+
+# Desc: /admin/
+jaltamir_boxadmin_default_index: /admin/
+
+# Desc: /login
+login: /login
+
+# Desc: /logout
+logout: /logout
+
+# Desc: /reservas
+my-assistances: /bookings
+
+# Desc: /instalaciones
+our_box: /our-center
+
+# Desc: /payment
+payment: /payment
+
+# Desc: /seleccionar-abono
+payment-select-pass: /select-pass
+
+# Desc: /nuestras-tarifas
+prices: /our-prices
+
+# Desc: /perfil
+profile: /profile
+
+# Desc: /recordar
+recover_password: /remind
+
+# Desc: /admin/refund/payment/{id}/show
+refund: '/admin/refund/payment/{id}/show'
+
+# Desc: /admin/refund/payment/{id}/do
+refund_action: '/admin/refund/payment/{id}/do'
+
+# Desc: /registro
+register: /register
+
+# Desc: /horarios
+schedule: /schedule
+
+# Desc: /admin/core/append-form-field-element
+sonata_admin_append_form_element: /admin/core/append-form-field-element
+
+# Desc: /admin/dashboard
+sonata_admin_dashboard: /admin/dashboard
+
+# Desc: /admin/
+sonata_admin_redirect: /admin/
+
+# Desc: /admin/core/get-autocomplete-items
+sonata_admin_retrieve_autocomplete_items: /admin/core/get-autocomplete-items
+
+# Desc: /admin/core/get-form-field-element
+sonata_admin_retrieve_form_element: /admin/core/get-form-field-element
+
+# Desc: /admin/search
+sonata_admin_search: /admin/search
+
+# Desc: /admin/core/set-object-field-value
+sonata_admin_set_object_field_value: /admin/core/set-object-field-value
+
+# Desc: /admin/core/get-short-object-description.{_format}
+sonata_admin_short_object_information: '/admin/core/get-short-object-description.{_format}'
+
+# Desc: /equipo
+team: /team
+
+# Desc: /test
+test: /test

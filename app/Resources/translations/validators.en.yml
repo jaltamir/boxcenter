@@ -1,0 +1,15 @@
+'El NIF no es válido': 'The NIF is not valid'
+'El email indicado para el usuario no es válido': 'The email is not valid'
+
+'Las contraseñas deben coincidir':
+    '': 'The passwords must match.'
+
+'Please upload a valid image':
+    ' The supported formats are JPEG, PNG and GIF': 'Please upload a valid image. The supported formats are JPEG, PNG and GIF'
+
+'Size allowed: up to 2M': 'Size allowed: up to 2M'
+'The max height is 1080px': 'The max height is 1080px'
+'The max width is 1920px': 'The max width is 1920px'
+
+'The password fields must match':
+    '': 'The password fields must match.'

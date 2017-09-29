@@ -1,0 +1,49 @@
+services:
+
+    admin.user:
+        class: Jaltamir\BoxAdminBundle\Admin\UserAdmin
+        arguments: [~, Jaltamir\BoxCoreBundle\Entity\User, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Users, group: 'User - Admin' }
+        calls:
+            - [ setPasswordEncoder, [ '@security.password_encoder' ] ]
+            - [ setTranslationDomain, [ 'SonataUserAdmin.' ] ]
+
+    admin.assistance:
+        class: Jaltamir\BoxAdminBundle\Admin\AssistanceAdmin
+        arguments: [~, Jaltamir\BoxCoreBundle\Entity\Assistance, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Assistances, group: 'User - Admin' }
+
+    admin.payment:
+        class: Jaltamir\BoxAdminBundle\Admin\PaymentAdmin
+        arguments: [~, Jaltamir\BoxCoreBundle\Entity\Payment, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Payments, group: 'User - Admin' }
+
+    admin.activity:
+        class: Jaltamir\BoxAdminBundle\Admin\ActivityAdmin
+        arguments: [~, Jaltamir\BoxCoreBundle\Entity\Activity, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Activities, group: 'Content' }
+
+    admin.schedule:
+            class: Jaltamir\BoxAdminBundle\Admin\ScheduleAdmin
+            arguments: [~, Jaltamir\BoxCoreBundle\Entity\Schedule, ~]
+            tags:
+                - { name: sonata.admin, manager_type: orm, label: Schedules, group: 'Content' }
+
+    admin.session:
+        class: Jaltamir\BoxAdminBundle\Admin\SessionAdmin
+        arguments: [~, Jaltamir\BoxCoreBundle\Entity\Session, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Sessions, group: 'Content' }
+        calls:
+            - [ setEventDispatcher, [ '@event_dispatcher' ] ]
+
+    admin.pass:
+        class: Jaltamir\BoxAdminBundle\Admin\PassAdmin
+        arguments: [~, Jaltamir\BoxCoreBundle\Entity\Pass, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Passes, group: 'Content' }
+

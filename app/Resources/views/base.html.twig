@@ -1,0 +1,497 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>CrossElite</title>
+
+    <!-- Favicon -->
+    <link href="assets/favicon.ico" rel="shortcut icon" />
+    <link href="assets/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css' />
+
+    <link rel="stylesheet" href="{{ asset('bundles/ucafit/css/font-awesome.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('bundles/ucafit/css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('bundles/ucafit/css/animsition.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('bundles/ucafit/css/vanillabox.css') }}" />
+    <link rel="stylesheet" href="{{ asset('bundles/ucafit/css/style.css') }}" />
+
+
+    {#<link href="assets/vendor/fontawesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />#}
+
+    <!-- CSS -->
+    {#<link href="assets/vendor/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />#}
+    {#<link href="assets/vendor/animsition-4.0.2/css/animsition.min.css" rel="stylesheet" />#}
+    {#<link href="assets/vendor/vanillabox-0.1.7/theme/sweet/vanillabox.css" rel="stylesheet" />#}
+
+    <!-- Main CSS-->
+    {#<link href="assets/css/style.css" rel="stylesheet" />#}
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="animsition">
+
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7 col-xs-7">
+                        <ul class="topbar-info list-unstyled list-inline">
+                            <li><p><i class="fa fa-phone"></i> +123 456 789</p></li>
+                            <li><p><i class="fa fa-calendar"></i> Mon - Sat 8 AM - 10 PM</p></li>
+                        </ul>
+
+                    </div> <!-- /.col-sm-7 -->
+                    <div class="col-sm-5 col-xs-5">
+                        <ul class="topbar-social list-unstyled list-inline">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                        </ul>
+                    </div> <!-- /.col-md-5 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /.topbar -->
+
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="current-parent navbar-brand" href="index.html">CrossElite</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class='current-parent'><a class='current-parent' href="index.html">Home 1</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class='current'><a class='current' href="index2.html">Home 2</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting Started <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="classes.html">Classes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="wod.html">W.O.D.</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="plans.html">Plans &amp; Pricing</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="team.html">The Team</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="box.html">Our Box</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul> <!-- /.nav -->
+            </div> <!-- /.collapse -->
+
+        </div> <!-- /.container -->
+    </nav>
+
+    <div id="startchange"></div>
+
+
+    <section id="intro" class="intro2 parallax-window" data-parallax="scroll" data-image-src="{{ asset('bundles/ucafit/images/bg10.jpg') }}">
+
+        <div class="intro-content">
+            <div class="container">
+
+                <h1>Let's get <span>ready</span> now!</h1>
+
+                <p>And so we say goodbye to our beloved pet, Nibbler, who's gone to a place where I, too, hope one day to go.</p>
+                <a href="#" class="btn btn-white">Join Now</a>
+                <a href="schedule.html" class="btn btn-white">Schedule</a>
+
+            </div> <!-- /.container -->
+        </div> <!-- /.intro-content -->
+    </section> <!-- /#intro -->
+
+
+
+    <section class="preview">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="preview-box match-height">
+                        <h4>W.O.D.</h4>
+                        <ul class="list-unstyled">
+                            <li class="wod-list">40-lb. dumbbell snatches</li>
+                            <li class="wod-list">21 L pull-ups</li>
+                            <li class="wod-list">40-lb. dumbbell snatches</li>
+                            <li class="wod-list">21 L Pull-ups</li>
+                        </ul>
+                        <a href="wod.html" class="btn-gradient center-block">
+                            <div class="button-content">View Details</div>
+                        </a>
+                    </div> <!-- /.preview-box -->
+                </div> <!-- /.col-md-3 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="preview-box match-height">
+                        <h4>Next Class</h4>
+                        <p class="prev-box-sub"><i class="fa fa-clock-o"></i>8:00 AM to 10:00 PM</p>
+                        <p class="prev-box-class">On Ramp</p>
+                        <p class="prev-box-sub"><span class="prev-box-main">Coach:</span> Jessica Ross</p>
+                        <a href="#" class="btn-gradient center-block">
+                            <div class="button-content">Join Now</div>
+                        </a>
+                    </div> <!-- /.preview-box -->
+                </div> <!-- /.col-md-3 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="preview-box match-height">
+                        <h4>Next Events</h4>
+                        <ul class="list-unstyled">
+                            <li class="border-left">
+                                <a class="prev-box-main">Crossfit Party</a>
+                                <a class="prev-box-sub">Saturday 8:00 PM</a>
+                            </li>
+                            <li class="border-left">
+                                <a class="prev-box-main">Crossfit Party</a>
+                                <a class="prev-box-sub">Saturday 8:00 PM</a>
+                            </li>
+                        </ul>
+                        <a href="events.html" class="btn-gradient center-block">
+                            <div class="button-content">View Details</div>
+                        </a>
+                    </div> <!-- /.preview-box -->
+                </div> <!-- /.col-md-3 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="promo-box match-height">
+                        <h4>Get 50% Discount</h4>
+                        <p>Bring a friend and both of you get 50% discount.</p>
+                        <p class="promo-box-main">Until September 2016</p>
+                        <a href="#" class="btn btn-white">Join Now</a>
+                    </div> <!-- /.promo-box -->
+                </div> <!-- /.col-md-3 -->
+
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </section> <!-- /.preview -->
+
+
+
+    <section class="services">
+        <div class="container">
+
+            <header>
+                <h2>What We Offer</h2>
+                <img src="{{ asset('bundles/ucafit/images/dumbell.png') }}" alt="" />
+                <p class="sub-heading">I must face him, alone. In my experience, there is no such thing as luck.</p>
+            </header>
+
+
+            <div class="row">
+
+                <div class="col-md-6 col-xs-12">
+                    <div class="services-left">
+                        <img src="{{ asset('bundles/ucafit/images/serv1.png') }}" alt="" />
+                    </div>
+                    <div class="services-right">
+                        <h3>Certified Coaches</h3>
+                        <p>Then throw her in the laundry room, which will hereafter be referred to as "the brig". Leela's gonna kill me. You know, I was God once.</p>
+                    </div>
+                </div> <!-- /.col-md-6 -->
+
+                <div class="col-md-6 col-xs-12">
+                    <div class="services-left">
+                        <img src="{{ asset('bundles/ucafit/images/serv2.png') }}" alt="" />
+                    </div>
+                    <div class="services-right">
+                        <h3>Affiliated Box</h3>
+                        <p>Then throw her in the laundry room, which will hereafter be referred to as "the brig". Leela's gonna kill me. You know, I was God once.</p>
+                    </div>
+                </div> <!-- /.col-md-6 -->
+
+                <div class="col-md-6 col-xs-12">
+                    <div class="services-left">
+                        <img src="{{ asset('bundles/ucafit/images/serv3.png') }}" alt="" />
+                    </div>
+                    <div class="services-right">
+                        <h3>Personal Training</h3>
+                        <p>Then throw her in the laundry room, which will hereafter be referred to as "the brig". Leela's gonna kill me. You know, I was God once.</p>
+                    </div>
+                </div> <!-- /.col-md-6 -->
+
+                <div class="col-md-6 col-xs-12">
+                    <div class="services-left">
+                        <img src="{{ asset('bundles/ucafit/images/serv4.png') }}" alt="" />
+                    </div>
+                    <div class="services-right">
+                        <h3>Introduction Classes</h3>
+                        <p>Then throw her in the laundry room, which will hereafter be referred to as "the brig". Leela's gonna kill me. You know, I was God once.</p>
+                    </div>
+                </div> <!-- /.col-md-6 -->
+
+            </div> <!--- /.row -->
+        </div> <!-- /.container -->
+    </section> <!-- /.services -->
+
+
+    <div class="call-to-action cta-1">
+        <div class="container">
+
+            <h3>Ready to Start?<span class="arrow-join-today"></span></h3>
+            <p>The ability to destroy a planet is insignificant next to the power of the Force.</p>
+
+            <a href="#" class="btn-gradient center-block">
+                <div class="button-content">Join Now</div>
+            </a>
+        </div> <!-- /.container -->
+    </div> <!-- /.call-to-action -->
+
+
+
+    <div class="separator parallax-window" data-parallax="scroll" data-image-src="{{ asset('bundles/ucafit/images/bg2.jpg') }}"></div>
+
+
+    <div class="separator-slogan">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-4">
+                    <p>Get in</p>
+                    <p class="large-text">Shape</p>
+                    <p>&amp; be healty</p>
+                </div>
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div>
+
+
+    <div class="call-to-action cta-2">
+        <div class="container">
+            <h3>Plans starting at $100</h3>
+            <p>A tremor in the Force. The last time I felt it was in the presence of my old master. Look, I ain't in this for your
+                revolution, and I'm not in it for you, Princess.</p>
+
+            <a href="#" class="btn-gradient center-block">
+                <div class="button-content">Join Now</div>
+            </a>
+        </div> <!-- /.container -->
+    </div> <!-- /.call-to-action -->
+
+
+
+    <section class="testimonials">
+        <div class="container">
+
+            <header>
+                <h2>Testimonials</h2>
+                <img src="{{ asset('bundles/ucafit/images/dumbell.png') }}" alt="" />
+                <p class="sub-heading">I must face him, alone. In my experience, there is no such thing as luck.</p>
+            </header>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="testimonial-box">
+                        <p>“ Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's.”</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img src="{{ asset('bundles/ucafit/images/user1.jpg') }}" class="media-object img-circle" alt="" />
+                                </a>
+                            </div>
+                            <div class="media-body media-middle">
+                                <h4 class="media-heading">Alissa Chandler</h4>
+                                <p>Teacher</p>
+                            </div>
+                        </div>
+                        <img src="{{ asset('bundles/ucafit/images/corner-top.png') }}" class="corner-top" alt="" />
+                        <div class="corner-bottom"></div>
+                    </div> <!-- /.testimonial-box -->
+                </div> <!-- /.col-md-6 -->
+
+                <div class="col-md-6">
+                    <div class="testimonial-box">
+                        <p>“ Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's.”</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img src="{{ asset('bundles/ucafit/images/user2.jpg') }}" class="media-object img-circle" alt="" />
+                                </a>
+                            </div>
+                            <div class="media-body media-middle">
+                                <h4 class="media-heading">Ross Greene</h4>
+                                <p>Teacher</p>
+                            </div>
+                        </div>
+                        <img src="{{ asset('bundles/ucafit/images/corner-top.png') }}" class="corner-top" alt="" />
+                        <div class="corner-bottom"></div>
+                    </div> <!-- /.testimonial-box -->
+                </div> <!-- /.col-md-6 -->
+
+                <div class="col-md-6">
+                    <div class="testimonial-box">
+                        <p>“ Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's.”</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img src="{{ asset('bundles/ucafit/images/user3.jpg') }}" class="media-object img-circle" alt="" />
+                                </a>
+                            </div>
+                            <div class="media-body media-middle">
+                                <h4 class="media-heading">Jessica Benes</h4>
+                                <p>Teacher</p>
+                            </div>
+                        </div>
+                        <img src="{{ asset('bundles/ucafit/images/corner-top.png') }}" class="corner-top" alt="" />
+                        <div class="corner-bottom"></div>
+                    </div> <!-- /.testimonial-box -->
+                </div> <!-- /.col-md-6 -->
+
+                <div class="col-md-6">
+                    <div class="testimonial-box">
+                        <p>“ Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's.”</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img src="{{ asset('bundles/ucafit/images/user4.jpg') }}" class="media-object img-circle" alt="" />
+                                </a>
+                            </div>
+                            <div class="media-body media-middle">
+                                <h4 class="media-heading">John Kramer</h4>
+                                <p>Teacher</p>
+                            </div>
+                        </div>
+                        <img src="{{ asset('bundles/ucafit/images/corner-top.png') }}" class="corner-top" alt="" />
+                        <div class="corner-bottom"></div>
+                    </div> <!-- /.testimonial-box -->
+                </div> <!-- /.col-md-6 -->
+
+            </div> <!-- /.row -->
+
+
+        </div> <!-- /.container -->
+    </section> <!-- /.testimonials -->
+
+
+    <div class="separator parallax-window" data-parallax="scroll" data-image-src="{{ asset('bundles/ucafit/images/bg3.jpg') }}"></div>
+
+
+    <section class="latest-news">
+        <div class="container">
+
+            <header>
+                <h2>Latest News</h2>
+                <img src="{{ asset('bundles/ucafit/images/dumbell.png') }}" alt="" />
+                <p class="sub-heading">I must face him, alone. In my experience, there is no such thing as luck.</p>
+            </header>
+
+            <div class="row">
+
+                <div class="col-md-3 match-height">
+                    <a href="single-post.html"><img src="{{ asset('bundles/ucafit/images/news1.jpg') }}" class="post-preview-img img-responsive" alt="" /></a>
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-3">
+                    <div class="post-preview match-height">
+                        <p class="post-preview-title">A Tremor in the Force</p>
+                        <p class="post-excerpt">Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley...</p>
+                        <a href="single-post.html" class="read-more">Read more</a>
+                    </div> <!-- /.post-preview -->
+                </div> <!-- /.col-md-3 -->
+
+                <div class="col-md-3 match-height">
+                    <a href="single-post.html"><img src="{{ asset('bundles/ucafit/images/news2.jpg') }}" class="post-preview-img img-responsive" alt="" /></a>
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-3">
+                    <div class="post-preview match-height">
+                        <p class="post-preview-title">A Tremor in the Force</p>
+                        <p class="post-excerpt">Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley...</p>
+                        <a href="single-post.html" class="read-more">Read more</a>
+                    </div> <!-- /.post-preview -->
+                </div> <!-- /.col-md-3 -->
+
+            </div> <!-- /.row -->
+
+        </div> <!-- /.container -->
+    </section> <!-- /.news -->
+
+
+    <div class="call-to-action cta-1">
+        <div class="container">
+
+            <h3>Ready to Start?<span class="arrow-join-today"></span></h3>
+            <p>The ability to destroy a planet is insignificant next to the power of the Force.</p>
+
+            <a href="#" class="btn-gradient center-block">
+                <div class="button-content">Join Now</div>
+            </a>
+        </div> <!-- /.container -->
+    </div> <!-- /.call-to-action -->
+
+
+    <footer>
+        <ul class="nav-footer list-unstyled list-inline">
+            <li class='current-parent'><a class='current-parent' href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="plans.html">Plans &amp; Pricing</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <ul class="social-footer list-unstyled list-inline">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+
+        <div class="copyright">
+            <p>&copy; 2016 Crossfit All Rights Reserved</p>
+        </div>
+    </footer>
+
+</div> <!-- /.animsition -->
+
+<script src="{{ asset('bundles/ucafit/js/jquery-1.12.4.min.js') }}"></script>
+<script src="{{ asset('bundles/ucafit/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('bundles/ucafit/js/animsition.min.js') }}"></script>
+<script src="{{ asset('bundles/ucafit/js/parallax.min.js') }}"></script>
+<script src="{{ asset('bundles/ucafit/js/jquery.vanillabox-0.1.7.min.js') }}"></script>
+<script src="{{ asset('bundles/ucafit/js/jquery.matchHeight-min.js') }}"></script>
+<script src="{{ asset('bundles/ucafit/js/scripts.js') }}"></script>
+
+{#<script src="assets/vendor/bootstrap-3.3.6/js/bootstrap.min.js"></script>#}
+{#<script src="assets/vendor/animsition-4.0.2/js/animsition.min.js"></script>#}
+{#<script src="assets/js/parallax.min.js"></script>#}
+{#<script src="assets/vendor/vanillabox-0.1.7/jquery.vanillabox.js"></script>#}
+{#<script src="assets/vendor/match-height-0.7.0/jquery.matchHeight-min.js"></script>#}
+{#<script src="assets/js/scripts.js"></script>#}
+
+</body>
+</html>

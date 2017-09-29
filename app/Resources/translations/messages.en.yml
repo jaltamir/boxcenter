@@ -1,0 +1,344 @@
+' y podrás reservar en todas nuestras actividades':
+    '': ' and you could book our activities.'
+
+'API Documentación': 'API Documentation'
+Abogada: Lawyer
+Abono: Pass
+Acceder: Access
+Acciones: Actions
+Active: Active
+Actividades: Activities
+Activity: Activity
+'Actualizar perfil': 'Update profile'
+Administración: Administration
+Administrator: Administrator
+'Alta intensidad': 'High intensity'
+Apellidos: Surname
+'Artes marciales': 'Martial arts'
+'Asesoramiento nutricional gratis': 'Free Nutritional Assistance'
+'Asesoramiento nutricional gratuito': 'Free Nutritional Assistance'
+Atleta: Athlet
+Atletismo: Athletism
+Boxeador: Boxer
+Boxeo: Box
+'Cancelar Reserva': 'Cancel booking'
+Cancelled: Cancelled
+Cardio: Cardio
+'Centros afiliados': 'Affiliate centers'
+'Cerrar Sesión': Logout
+'Change Password': 'Change Password'
+Ciclismo: Cycling
+'Clases de iniciación': 'Beginning classes'
+'Comprar Abono': 'Buy a pass'
+'Confirma tu suscripción realizando el pago': 'Confirm your suscription making payment'
+Confirmed: Confirmed
+Contacto: Contact
+Contraseña: Password
+
+"Creemos en un entrenamiento integral y variado, unido a nuestro asesoramiento nutricional gratuito para\n                todos los socios":
+    '': "We believe in a complete and different training, with free nutritional assistance for\n                every client."
+
+Crossfit: Crossfit
+Culturista: Bodybuilder
+
+'Da igual el nivel que tengas o la actividad que quieras practicar':
+    " Disponemos de clases de\n                        iniciación de todas las actividades con un aforo reducido":
+        '': "No matter which level you have or what kind of activity you would like to practice. We offer beggining classes\n                       for every activity with a reduce capacity on it."
+
+'Date and Time': 'Date and Time'
+'Defensa personal': Self-defense
+'Deportes en pista': 'Outdoor sports'
+Description: Description
+'Descuentos en material deportivo': 'Sport material discounts'
+
+'Desde ahora mismo puedes empezar a usar nuestros servicios':
+    '': 'Now you can enjoy all our activities.'
+
+Dirección: Address
+
+'Disponemos de pistas reservables para fútbol, pádel y baloncesto':
+    '': 'We offer outdoor booking spaces to play football, paddle and baseball.'
+
+Domingo: Sunday
+
+'Ejercicios funcionales combinados de alta y baja intensidad':
+    '': 'High and low intensity functional training.'
+
+'El aforo de esta sesión está completo':
+    '': 'This session is full.'
+
+'El primer paso es seleccionar el tipo de abono mensual': 'First step is selecting a mensual pass'
+Email: Email
+
+"En UCAFit no eres un número, te ofrecemos un entrenamiento adaptado específicamente a tus\n                        necesidades y a tu tiempo libre":
+    '': "In UCAFit you are not a number, we offer you a specific training adapted to\n                        your needs and your free time."
+
+'Entrenadores certificados': 'Certified coaches'
+'Entrenamiento militar y resistencia': 'Resistance and militar training'
+'Entrenamiento personalizado': 'Custom training'
+'Escribe tu contraseña': 'Type your password'
+'Escribe tu correo electrónico': 'Type your email'
+Estado: State
+Estudiante: Student
+Fecha: Date
+'Fecha de la reserva': 'Booking date'
+Forma: Fit
+
+'Ha ocurrido un error al intentar procesar el pago, por favor, inténtalo de nuevo':
+    '': 'Your payment cannot be processed. Try again in a few minutes.'
+
+'Has elegido': 'You have chosen'
+Horarios: Schedules
+
+'Impartimos las especialidades Bhakti, Hatha y Japa':
+    '': 'We practice the specialities Bhakti, Hatha y Japa.'
+
+Inactive: Inactive
+Iniciación: Beginning
+'Iniciación y avanzado': 'Beginning and expert'
+Inicio: Start
+'Introduce tu tarjeta': 'Introduce your card'
+'Ir al Pago': 'Go to payment'
+
+'Irene es instructora titulada de Yoga desde hace más de 8 años':
+    '': 'Irene is a certified coach in Yoga with more than 8 years of experience.'
+
+'Joaquín es además un experto en acondicionamiento físico':
+    '': 'Joaquín is also an expert in body training.'
+
+"John ha sido culturista y se dedica a la formación de deportistas de\n                        alto nivel":
+    '': "John has been body builder and he is dedicated to train high level\n                        athletes."
+
+Jueves: Thursday
+
+'La mayor variedad de actividades adaptada a tu tiempo':
+    '': 'Most variety of activities adapted to your schedule.'
+
+'La reserva se ha cancelado correctamente': 'Your booking has been cancelled'
+'La reserva se ha procesado correctamente': 'Your booking has been processed'
+Login: Login
+
+'Los mejores profesionales a tu disposición':
+    '': 'Best professionals available for you.'
+
+Lunes: Monday
+'Lunes a Sábado 08:00 - 23:00': 'Monday to  Saturday 8:00am - 11:00pm'
+
+"Manuel se dedica profesionalmente al Crossfit desde hace más de 12\n                        años":
+    '': "Manuel is a professionl of crossfit training from more than 12\n                        years."
+
+Martes: Tuesday
+'Maximum Capacity': 'Maximum Capacity'
+'Maximum capacity': 'Maximum capacity'
+'Mi Perfil': 'My profile'
+'Mi perfil': 'My profile'
+
+'Mike lleva más de 20 años dedicados al atletismo y al ciclismo':
+    '': 'Mike has more than 20 years of experience in athletism and cycling.'
+
+'Mis Reservas': 'My bookings'
+'Mis reservas': 'My bookings'
+Miércoles: Wednesday
+'Month Subscribed': 'Month Subscribed'
+NIF: NIF
+Name: Name
+Natación: Swimming
+
+'Natación libre y tutorizada a todos los niveles':
+    '': 'Free and monitored swimming for all levels.'
+
+'Net Price (€)': 'Net Price (€)'
+'No puedes cancelar esta reserva': 'You cannot cancel this booking'
+
+'No puedes contratar abonos para otros usuarios':
+    '': 'You cannot pay passes for other users.'
+
+'No puedes contratar un abono para un mes ya finalizado': 'You cannot pay a pass for a previous month'
+
+'No puedes reservar una sesión ya realizada':
+    '': 'You cannot book a session already done.'
+
+'No se ha podido actualizar tu perfil, por favor, inténtelo de nuevo más tarde':
+    '': 'Your profile cannot be updated. Try again later.'
+
+'No tienes abono para este mes':
+    '': 'You have not paid a pass this month.'
+
+"No tienes pagos\n                        registrados":
+    '': "You don't have registered\n                        payments."
+
+'No tienes pagos registrados':
+    '': 'You don''t have registered payments.'
+
+'No tienes reservas realizadas en los últimos dos meses':
+    '': 'You don''t have bookings for last two months.'
+
+Nombre: Name
+
+'Nos adaptamos a tus necesidades':
+    '': 'We adapt to your needs.'
+
+'Nuestra prioridad eres tú':
+    " Te mostramos algunas opiniones de nuestros socios que lo\n                demuestran":
+        '': "Our priority is you. We show you some opinions from our clients to\n                demostrate it."
+
+'Nuestras instalaciones': 'Our center'
+'Nuestras tarifas': 'Our prices'
+'Nuestro Equipo': 'Our team'
+'Nuestro equipo': 'Our team'
+'Nuestros planes de entrenamiento comienzan desde 40€': 'Our training plans begins from 40€'
+'Nuestros socios opinan': 'Our clients believe'
+Pagar: Pay
+'Pagar un abono': 'Buy a pass'
+Pago: Payment
+'Pagos realizados': 'Payments done'
+
+'Para poder realizar un pago antes debes completar tu perfil':
+    '': 'To make a payment you have to complete your profile before.'
+
+'Para poder reservar una actividad debes iniciar sesión': 'To book an activity you should login'
+Pass: Pass
+Pending: Pending
+Perfil: Profile
+'Perfil de Usuario': 'User Profile'
+
+'Planes integrales que se adaptan a tu tiempo':
+    '': 'Complete plans adapted to your time.'
+
+'Podrás entrenar la modalidad que desees y técnica de carrera':
+    '': 'You would train different methods and running techniques.'
+
+'Ponte en': Get
+
+'Ponte en forma con nosotros':
+    ' Tendrás a tu disposición la mayor variedad posible de actividades dirigidas por nuestros entrenadores certificados': 'Get fit with us. You will have available most variety of activities adressed by our certified coaches.'
+
+Price/month: Price/month
+
+'Primero debes seleccionar el abono que deseas contratar':
+    '': 'First step is to select the pass you want.'
+
+Profesora: Coach
+'Qué ofrecemos': 'What we offer'
+Registrar: Register
+Registro: Register
+Regístrate: Register
+'Repeat Password': 'Repeat Password'
+'Repite tu contraseña': 'Repeat your password'
+Reservas: Bookings
+'Return to list': 'Return to list'
+'Running y ciclismo': 'Running y ciclismo'
+'Sara es además nutricionista e imparte natación a todos los niveles': 'Sara is also a nutricionist and give swimming lessons at all levels'
+'Seleccione el abono que deseas contratar:': 'Select the pass you want:'
+'Seleccione el mes para abonarse:': 'Select the month:'
+'Seleccione el mes:': 'Select the month:'
+'Selección del Abono': 'Select a pass'
+'Select pass:': 'Select pass:'
+'Select the subscription beginning:': 'Select the subscription beginning:'
+'Select user:': 'Select user:'
+'Sesiones Ilimitadas': 'Unlimited sessions'
+'Sesión reservada': 'Session booked'
+'Session Dates': 'Session Dates'
+Sessions/month: Sessions/month
+'Set a new Password': 'Set a new Password'
+'Sin contrato de permanencia': 'Without permanent contract'
+'Sobre nosotros': 'About us'
+'Start Time': 'Start Time'
+State: State
+Sábado: Saturday
+'Sólo puedes cancelar una reservar hasta 30 minutos antes del comienzo': 'You can cancel bookings until 30 minutes before the start'
+
+'Sólo puedes reservar hasta 15 minutos antes del comienzo de la sesión':
+    '': 'You can book a session until 15 minutes before the start.'
+
+'Sólo se muestran las reservas realizadas en los últimos dos meses':
+    '': 'It only shows bookings for last two months.'
+
+'Sólo tienes que abonarte a cualquiera de ': 'Sólo tienes que abonarte a cualquiera de '
+Tarifas: Prices
+Teléfono: Telephone
+
+"Tendrás a tu disposición todas las actividades que puedas imaginar dirigidas por nuestros expertos\n                    cualificados":
+    '': "You will have available all activities you can imagine adressed by our certified\n                    coaches."
+
+'Tenemos acuardos de colaboración con centros de entrenamiento de toda España':
+    " Ya no tienes excusa\n                        para seguir en forma si te vas de viaje o durante tus vacaciones":
+        '': "We have agreements with training centers from all parts of Spain. Now you don't have excuses\n                        to continue getting fit if you go travelling or during your holidays"
+
+'Todos los abonados disfrutan de asesoramiento nutricional personalizado y gratuíto':
+    '': 'All clients enjoy free customized nutritional assesstment.'
+
+'Todos los derechos reservados': 'All rights reserved'
+'Todos los niveles': 'All levels'
+
+'Todos nuestros entrenadores están altamente cualificados y tienen una amplia experiencia':
+    '': 'All our coaches are experienced and fully qualified.'
+
+'Total Amount (€)': 'Total Amount (€)'
+Triatlón: Triathlon
+'Tu pago ha sido procesado correctamente y tu abono ha sido registrado': 'Your payment has been processed'
+
+'Tu perfil se ha actualizado correctamente':
+    '': 'Your profile has been updated.'
+
+"Ubicadas en un entorno privilegiado, muy cerca de parejes naturales protegidos,\n                nuestras instalaciones son muy completas y modernas":
+    " Disponemos de piscina olímpica climatizada, pistas\n                y zonas acondicionadas para todas las actividades y por supuesto zonas de exterior para disfrutar del\n                buen tiempo":
+        '': "Located in a privileged environment, close to natural protected areas,\n                our facilities look modern and completed. We have olympic and heated swimming pool, ourdoor facilities\n                and adapted areas for all activities and, of course, outdoor areas to enjoy\n                good weather."
+
+User: User
+'User Type': 'User Type'
+
+'Varias modalidades Indoor':
+    '': 'Different indoor modalities.'
+
+'Vat (€)': 'Vat (€)'
+Viernes: Friday
+'Volver al frontal': 'Come back to front'
+'Week Day': 'Week Day'
+'Ya has contratado un abono para el mes seleccionado': 'You have already payed for a pass to this month'
+
+'Ya has reservado una plaza para esta sesión':
+    '': 'You have a previous booking to this session.'
+
+'Ya has usado todas las sesiones que tienes contratadas este mes':
+    '': 'You have used all sessions allowed by your pass.'
+
+'Yo cannot change the password of an user with role "administrator"': 'You cannot change the password of an user with role "administrator"'
+'You are changing the password for user:': 'You are changing the password for user:'
+'You cannot change the password of an user with role "administrator"': 'You cannot change the password of an user with role "administrator"'
+ahora!: now!
+atletismo: athletism
+ciclismo: cycling
+del: of
+'deportes en pista': 'outdoor sports'
+
+ejemplo@ejemplo:
+    com: example@example.com
+
+email:
+    registration:
+        title: email.registration.title
+
+forma: fit
+natación: swimming
+'nuestros planes': 'our plans'
+'para el mes de': 'for month of'
+'sesiones al mes': 'sessions per month'
+'¡Bienvenido a UCAFit!': '¡Welcome to UCAFit!'
+'¿Listo para comenzar?': 'Ready to begin?'
+'¿Olvidaste tu contraseña?': 'Forgot your password?'
+
+'“ Nunca había hecho ejercicio en mi vida':
+    " Por cuestiones de salud tuve que comenzar y en UCAFit\n                        me han enseñado cómo hacerlo de forma divertida":
+        ”: "“ I have never practice sport in my life. Because of health, I have to start changing my habits and in UCAFit\n                        they show me how to do it and enjoy having fun with it”"
+
+'“ Practico varios deportes desde siempre y solía estar abonado a varios centros deportivos':
+    " La\n                        gran variedad de actividades de UCAFit cubren todas mis necesidades":
+        ”: "“ Since always, I practice different sports and I should be joined to different sport centers. Such\n                        variety of activities in UCAFit give me all my needs.”"
+
+"“ Su ubicación es ideal para integrar el deporte en mi día a día, aprovechando los huecos que\n                        tengo en mi trabajo":
+    ”: "“ Its location is perfect to join sports in my everyday rutine, taking advantage of breaks\n                        I have at work.”"
+
+'“ Tengo poco tiempo libre, entre las clases y las prácticas tengo ocupado casi todo el día':
+    " Tener\n                        el centro tan cerca de la facultad y con un horario tan amplio me permite estar en forma":
+        ”: "“ I have no much free time with lectures and practices. Having\n                        the sport center so close to university with a wide schedule makes me getting fit.”"

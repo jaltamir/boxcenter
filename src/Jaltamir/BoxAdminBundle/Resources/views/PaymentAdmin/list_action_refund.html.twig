@@ -1,0 +1,10 @@
+
+{% if object.state == 2 and not object.isManuallyCreated %}
+
+    <a class="btn-sm btn-danger" href="{{ url('refund', {'id' : object.id}) }}">Refund Payment</a>
+
+{% elseif object.state == 2 and object.isManuallyCreated %}
+
+    <a class="btn-sm btn-warning" href="{{ url('refund', {'id' : object.id}) }}">Cancel Payment</a>
+
+{% endif %}

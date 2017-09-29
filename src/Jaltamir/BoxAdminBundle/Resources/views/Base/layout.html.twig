@@ -1,0 +1,25 @@
+{% extends 'SonataAdminBundle::standard_layout.html.twig' %}
+
+{% block sonata_admin_content %}
+
+    {% include 'SonataCoreBundle:FlashMessage:render.html.twig' %}
+
+    {{ parent() }}
+
+{% endblock %}
+
+{#{% block logo %}#}
+    {#{% spaceless %}#}
+        {#<a class="logo" href="{{ url('sonata_admin_dashboard') }}">#}
+            {#{% if 'single_image' == admin_pool.getOption('title_mode') or 'both' == admin_pool.getOption('title_mode') %}#}
+                {#<img src="{{ get_asset_url('logo/logotipo.svg') }}" alt="{{ admin_pool.title }}"/>#}
+            {#{% endif %}#}
+            {#{% if 'single_text' == admin_pool.getOption('title_mode') or 'both' == admin_pool.getOption('title_mode') %}#}
+                {#<span class="sr-only">{{ admin_pool.title }}</span>#}
+            {#{% endif %}#}
+        {#</a>#}
+    {#{% endspaceless %}#}
+{#{% endblock %}#}
+
+
+

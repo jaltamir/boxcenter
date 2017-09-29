@@ -1,0 +1,9 @@
+{% extends 'SonataAdminBundle:CRUD:base_list_field.html.twig' %}
+
+{% block field %}
+    <div>
+        {% for key, value in object.weekDay %}
+            <span class="label label-primary">{{ value }}</span>
+        {% endfor %}
+    </div>
+{% endblock %}
